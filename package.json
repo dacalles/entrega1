@@ -1,12 +1,24 @@
 {
   "name": "entrega1",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Primer entrega curso",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "David Andres Calle S.",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^13.2.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dacalles/entrega1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dacalles/entrega1/issues"
+  },
+  "homepage": "https://github.com/dacalles/entrega1#readme"
 }
