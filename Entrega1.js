@@ -58,7 +58,7 @@ async function loop() {
 }
 
 let crearArchivo = (nombreInteresado, idInteresado, cedulaInteresado, curso) =>{
-    texto= 'Usuario: ' + nombreInteresado + ' ' + ',con CC: ' + cedulaInteresado + ', ha buscado el curso con id: ' + idInteresado + '\n' + 'Los datos del curso que buscó son: ' +
+    texto= 'Usuario: ' + nombreInteresado + ', con CC: ' + cedulaInteresado + ', ha buscado el curso con id: ' + idInteresado + '\n' + 'Los datos del curso que inscribio son: ' +
         'id: ' + curso.id + ', nombre: ' + curso.nombre + ', duracion: ' + curso.duracion + ', valor: ' + curso.valor;
     fs.writeFile('Informacion.txt', texto, (err)=>{
         if (err) throw (err);

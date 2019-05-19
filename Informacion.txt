@@ -1,2 +1,2 @@
-Usuario: david ,con CC: 141414, ha buscado el curso con id: 2
-Los datos del curso que buscó son: id: 2, nombre: Historia, duracion: 6, valor: 450000
+Usuario: david, con CC: 141414, ha buscado el curso con id: 1
+Los datos del curso que inscribio son: id: 1, nombre: ingles, duracion: 5, valor: 250000
