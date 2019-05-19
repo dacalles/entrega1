@@ -1,4 +1,6 @@
-const argv = require('yargs').argv;
+const argv = require('yargs')
+    .command('inscribir')
+    .argv;
 const fs = require('fs');
 
 let cursos = [{
@@ -25,7 +27,6 @@ let cursos = [{
 nombreInteresado=argv.nombre;
 idInteresado=argv.id;
 cedulaInteresado=argv.cedula;
-inscribirInteresado=argv.inscribir;
 
 const delay = (amount = number) => {
     return new Promise((resolve) => {
@@ -49,7 +50,7 @@ async function loop() {
             console.log(cursos[nombreCurso.id]);
             crearArchivo(nombreInteresado, idInteresado, cedulaInteresado,cursos[nombreCurso.id] );
 
-        }else if (z==cursos.length){
+        }else if (z==cursos.length && idInteresado != undefined){
             console.log('El ID ingresado no corresponde a ningun curso en el programa, ingrese nuevamente un id valido');
         }
     });
