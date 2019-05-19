@@ -37,7 +37,7 @@ const delay = (amount = number) => {
 async function loop() {
     for (let i = 0; i < cursos.length; i++) {
         console.log("Curso " + i + " :", cursos[i]);
-        await delay(1);
+        await delay(2000);
     }
     console.log('\n');
     z=0;
